@@ -7,7 +7,7 @@ public class ReverseStack {
     static Stack<Character> st = new Stack<>();
 
     static void pushBottom(char y) {
-        if (st.isEmpty())
+        if (st.empty())
             st.push(y);
         else {
             char x = st.peek();
