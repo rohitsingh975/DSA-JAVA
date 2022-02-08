@@ -21,7 +21,7 @@ public class ConsecutiveElement {
             for (int i = 0; i < n; i++) {
                 a[i] = Long.parseLong(a1[i]);
             }
-            Solution ob = new Solution();
+            //Solution ob = new Solution();
             boolean ans = areConsecutives(a, n);
             // System.out.println(ob.shuffleArray(a,n));
             if (ans)
