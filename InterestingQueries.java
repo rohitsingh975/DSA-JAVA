@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class InterestingQueries {
-    public static void main(String[] args) throws java.lang.Exception {
+    public static void main(String[] args) throws Exception {
         HashMap<Integer, Integer> map = new HashMap<>();
         Scanner in = new Scanner(System.in);
         int t = in.nextInt();
